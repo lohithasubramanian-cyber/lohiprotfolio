@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lohitha S - EEE Student Portfolio</title>
+  <link rel="stylesheet" href="portfolio-style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Lohitha S</div>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION WITH CANVAS ANIMATION -->
+  <section id="hero" class="hero-section">
+    <canvas id="scroll-canvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-name">Lohitha S</h1>
+      <h2 class="hero-title">EEE Student | Embedded Systems | IoT | Lighting Design</h2>
+      <p class="hero-tagline">Passionate about mastering electrical engineering fundamentals and building hands-on technical solutions.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p class="about-text">
+          Passionate Electrical and Electronics Engineering student with strong focus on core EEE fundamentals including circuits, electronics, instrumentation, and control systems. Skilled in building hands-on technical solutions through laboratory work, PCB design, and software tools like MATLAB and Python. Experienced in IoT applications, embedded systems, and lighting design with a commitment to connecting theory with real-world measurements and analysis.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title">Skills & Tech Stack</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Programming</h3>
+          <ul class="skill-list">
+            <li>C Programming</li>
+            <li>Python</li>
+            <li>Variables & Flow Control</li>
+            <li>Pointers</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>Embedded Systems & IoT</h3>
+          <ul class="skill-list">
+            <li>Arduino</li>
+            <li>Raspberry Pi</li>
+            <li>Sensor Interfacing</li>
+            <li>Device Control</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Software Tools</h3>
+          <ul class="skill-list">
+            <li>MATLAB Simulink</li>
+            <li>DIALux 4.13</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📡</div>
+          <h3>Technical Skills</h3>
+          <ul class="skill-list">
+            <li>Communication Protocols (UART, SPI, I2C)</li>
+            <li>Circuit Debugging</li>
+            <li>PCB Design</li>
+            <li>Laboratory Work</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">💡</div>
+          <h3>Lighting Design</h3>
+          <ul class="skill-list">
+            <li>Luminaire Selection</li>
+            <li>Lux Level Calculations</li>
+            <li>Lighting Standards</li>
+            <li>DIALux Software</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🤝</div>
+          <h3>Soft Skills</h3>
+          <ul class="skill-list">
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Critical Thinking</li>
+            <li>Time Management</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <h2 class="section-title">Internships & Experience</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2 Weeks</div>
+            <h3>IoT Applications Using Raspberry Pi</h3>
+            <h4>NSIC</h4>
+            <ul class="experience-list">
+              <li>Worked on sensor-based monitoring (temperature, humidity, water quality, motion)</li>
+              <li>Implemented device control (motors, LEDs, home appliances)</li>
+              <li>Gained experience in GPIO interfacing</li>
+              <li>Utilized UART, SPI, I2C communication protocols</li>
+              <li>Debugged circuits and documented workflows</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">1 Month</div>
+            <h3>DIALux Software Training & Lighting Design</h3>
+            <h4>Larsen & Toubro Constructions</h4>
+            <ul class="experience-list">
+              <li>Learned lighting design principles</li>
+              <li>Practiced luminaire selection and placement</li>
+              <li>Performed lux level calculations</li>
+              <li>Applied lighting standards using DIALux 4.13 for real-world projects</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-icon">🔒</div>
+          <h3>Ultrasonic Security System</h3>
+          <p>Security system using Arduino UNO with buzzer for intrusion detection and alert</p>
+          <div class="project-tags">
+            <span class="tag">Arduino</span>
+            <span class="tag">Ultrasonic Sensor</span>
+            <span class="tag">Security</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🚪</div>
+          <h3>Automatic Smart Door System</h3>
+          <p>Automated door control system using Arduino and ultrasonic sensors for hands-free operation</p>
+          <div class="project-tags">
+            <span class="tag">Arduino</span>
+            <span class="tag">Automation</span>
+            <span class="tag">IoT</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🌡️</div>
+          <h3>Temperature & Humidity Monitoring</h3>
+          <p>Real-time environmental monitoring system using DHT11 sensor with Raspberry Pi</p>
+          <div class="project-tags">
+            <span class="tag">Raspberry Pi</span>
+            <span class="tag">DHT11</span>
+            <span class="tag">Monitoring</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS SECTION -->
+  <section id="certifications" class="section certifications-section">
+    <div class="container">
+      <h2 class="section-title">Training & Certifications</h2>
+      <div class="certifications-grid">
+        
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <h3>IoT Applications Using Raspberry Pi</h3>
+          <p>NSIC (2 Weeks)</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <h3>DIALux Software Training</h3>
+          <p>Larsen & Toubro Constructions (1 Month)</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-content">
+        
+        <div class="education-card">
+          <h3>B.E. – Electrical and Electronics Engineering</h3>
+          <h4>Thanthai Periyar Government Institute of Technology, Vellore</h4>
+          <p class="education-year">2023 – 2026</p>
+          <p class="education-grade">CGPA: 7.33 (up to 6th semester)</p>
+        </div>
+
+        <div class="education-card">
+          <h3>Higher Secondary (12th)</h3>
+          <h4>A.C.S Matriculation Higher Secondary School</h4>
+          <p class="education-year">2015 – 2022</p>
+          <p class="education-grade">75.6%</p>
+        </div>
+
+        <div class="education-card">
+          <h3>SSLC (10th)</h3>
+          <h4>A.C.S Matriculation Higher Secondary School</h4>
+          <p class="education-year">2015 – 2022</p>
+          <p class="education-grade">67.4%</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGES SECTION -->
+  <section id="languages" class="section certifications-section">
+    <div class="container">
+      <h2 class="section-title">Languages</h2>
+      <div class="certifications-grid">
+        
+        <div class="cert-card">
+          <div class="cert-logo">🗣️</div>
+          <h3>English</h3>
+          <p>Proficient</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🗣️</div>
+          <h3>Tamil</h3>
+          <p>Native</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        
+        <div class="contact-info">
+          
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <h3>Phone</h3>
+              <p>+91 77087 12870</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:lohithasubramanian@gmail.com">lohithasubramanian@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3>Location</h3>
+              <p>Arani, Tiruvannamalai District, Tamil Nadu, India</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built with passion for electrical engineering and real-world technical solutions</p>
+      <p>&copy; 2025 Lohitha S. All rights reserved.</p>
+    </div>
+  </footer>
+  <div id="chat-wrapper">
+    <button id="chat-toggle" class="chat-btn">
+        <span class="icon">💬</span>
+    </button>
+
+    <div id="chat-container" class="chat-hidden">
+        <div class="chat-header">
+            <h3>Lohitha's AI Assistant</h3>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div id="chat-messages">
+            <div class="message bot-msg">Hi! I'm Lohitha's virtual assistant. Ask me anything about her projects or skills!</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+            <button id="chat-send">Send</button>
+        </div>
+    </div>
+</div>
+  <script src="portfolio-script.js"></script>
+</body>
+</html>
